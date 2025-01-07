@@ -11,7 +11,7 @@ import Skills from './pages/skills'
 function App() {
   return (
     <BrowserRouter>
-    <div className='p-4 min-h-full dark:bg-black h-screen'>
+    <div className='p-4 min-h-full dark:bg-black min-h-screen'>
     <AppBar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
