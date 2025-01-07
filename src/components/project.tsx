@@ -1,4 +1,4 @@
-
+import linksym from '../images/link.png'
 export default function Project({name,link,slink} : {
     name : string,
     link : string,
@@ -8,8 +8,8 @@ export default function Project({name,link,slink} : {
         <img></img>
         <div className="flex flex-col">
             <div>{name}</div>
-            <div>Project Link : <a><img></img></a></div>
-            <div>Source Link : <a></a></div>
+            <div>Project Link : <a><img src={linksym}></img></a></div>
+            <div>Source Link : <a><img src={linksym}></img></a></div>
         </div>
     </div>
 }
