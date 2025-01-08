@@ -1,7 +1,7 @@
 
 
 export default function About(){
-    return <div className="dark:text-white">
+    return <div className="">
         About
     </div>
 }

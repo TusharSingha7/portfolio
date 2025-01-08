@@ -1,7 +1,7 @@
 
 
 export default function Skills(){
-    return <div className="dark:text-white">
+    return <div className="">
         Skills
     </div>
 }

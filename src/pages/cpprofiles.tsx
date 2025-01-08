@@ -1,7 +1,7 @@
 
 
 export default function CPprofiles(){
-    return <div className="dark:text-white">
+    return <div className="">
         CP profiles
     </div>
 }
