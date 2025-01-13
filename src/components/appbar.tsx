@@ -19,7 +19,7 @@ export default function AppBar(){
             }}>CP Profiles</button>
             <button onClick={()=>{
                 nav('/about');
-            }}>About</button>
+            }}>Contact</button>
             
         </div>
         <div className="flex px-2 justify-end space-x-4 pr-16">
