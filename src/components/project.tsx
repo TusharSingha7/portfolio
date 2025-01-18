@@ -6,7 +6,7 @@ export default function Project({name,link,slink,Landingimg,des} : {
     Landingimg : string,
     des : string
 }){
-    return <a href={link}><div className=" rounded-lg flex p-2 shadow border-slate-300 border transform transition-transform hover:shadow-xl duration-300 mx-6">
+    return <a href={link}><div className=" rounded-lg flex p-2 shadow border-slate-300 border transform transition-transform hover:shadow-xl duration-300 max-w-2xl mx-auto">
         <img src={Landingimg} className='w-60 h-48 mx-3 my-2 rounded-lg'></img>
         <div className="flex flex-col mt-2">
             <div className='text-3xl italic font-bold'>{name}</div>

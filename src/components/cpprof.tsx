@@ -11,7 +11,7 @@ export default function CPprof({img,platform,psolved,rating,level,badge,color,pr
     username : string,
     link : string
 }){
-    return <a href={link}><div className="rounded-lg flex p-2 shadow border-slate-300 border transform transition-transform hover:shadow-xl duration-300 mx-6">
+    return <a href={link}><div className="rounded-lg flex p-2 shadow border-slate-300 border transform transition-transform hover:shadow-xl duration-300 max-w-3xl mx-auto">
         <img src={img}></img>
         <div className="text-4xl mx-4 font-bold flex items-center">{platform}</div>
         <div className="mx-4 text-lg flex flex-col items-center">
